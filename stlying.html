@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #head{
+        color: white;
+        text-align:center;
+        background-color: rgb(15, 15, 92);
+        padding: 30px;
+        border-radius:10px;
+        box-shadow: 0 4px 8px rga(0,0,0,0.1);
+    }
+    body{
+        background-color: rgb(236, 235, 235);
+    }
+    .menu{
+        text-align: center;
+        border-radius:20px;
+    }
+    hr{
+        border:0.01px solid rgb(221, 160, 46);
+    }
+    section{
+        margin-bottom:20px;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        text-transform: uppercase;
+        font-size:larger;
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        text-transform: uppercase;
+        font-size:18px;
+        color: rgb(46, 46, 136);
+    }
+    .para{
+        font-family: Segoe UI, sans-serif;
+        text-transform: capitalize;
+        font-size:small
+    }
+    .box{
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top:10px;
+    }
+    
+    #end{
+        text-align: center;
+        font-size: small;  
+    }
+
+</style>
+
+<body>
+    <div id="head"> 
+        <h1>Thynich</h1>
+        <div class="menu">
+            <button id="home">Home</button>
+            <button id="projects">Projects</button> 
+            <button id="contacts">Contacts</button>
+        </div>
+    </div>
+    <main>
+        <section>
+            <div class="box">
+            <h2 id="describe">About Me</h2>
+            <hr>
+            <p class="para"> I'm a first year student at CADT . <br>I'm majoring in Data Science.</p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="box">
+            <h2 id="skill">Skills</h2>
+            <hr>
+            <ul>
+                <li class="para"> Problem solving</li>
+                <li class="para"> Communication</li>
+                <li class="para"> C language(Beginner)</li>
+            </ul>
+            </div>
+            
+        </section> 
+        <section>
+             <div class="box">
+            <h2 id="goal">This Month Goals</h2>
+            <hr>
+            <ul>
+                <li class="para"> Catch up with HTML,Database,Web Design Fundamentals</li>
+                <li class="para"> Understand the concept of JavaScript</li>
+                <li class="para"> network with seniors</li>
+            </ul>
+            </div>
+        </section>
+        <section>
+             <div class="box">
+            <h2 id="platform">Find Me Online</h2>
+            <hr>
+            <ul>
+                <li>
+                    <a class="para" href="https://www.facebook.com/share/1Bfzms9Wbv/" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a class="para" href="t.me/thynich" target="_blank">Telegram</a>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="end"> @2026 My website </p>
+    </footer>
+
+</body>
+</html>
